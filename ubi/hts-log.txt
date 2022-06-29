@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 29 Jun 2022 15:55:50 at https://www.ubisoft.com/en-us/game/skull-and-bones +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.ubisoft.com/en-us/game/skull-and-bones -O1 "D:\medip\twicpics\ubisoft\ubi" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:55:53	Warning: 	Note: due to https://www.ubisoft.com remote robots.txt rules, links beginning with these path will be forbidden: */entertainment/parks-experiences/escape-games/downloads (see in the options to disable this)
+15:56:01	Error: 	"Forbidden" (403) at link https://static-dm.akamaized.net/ubisoft/prod/favicon-114x114.png (from https://www.ubisoft.com/en-us/game/skull-and-bones)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 seconds : 31 links scanned, 29 files written (6492660 bytes overall) [2328487 bytes received at 194040 bytes/sec], 5549762 bytes transferred using HTTP compression in 9 files, ratio 24%, 3.8 requests per connection
+(1 errors, 1 warnings, 0 messages)
