@@ -1,0 +1,374 @@
+/* UBISOFT.COM EXTERNAL CSS */
+
+.ageGate .divider:after,
+.ageGate .divider:before {
+  width: 40%;
+}
+
+/* UBIFORWARD STYLES */
+
+body[data-route="forward"] .module--register-for-beta p {
+  color: white !important;
+}
+
+body[data-route="forward"] .module--register-for-beta h2 {
+  color: white !important;
+  font-size: 3em;
+  text-transform: none;
+  line-height: 1em;
+}
+
+body[data-route="forward"] .module--register-for-beta {
+  text-align: center;
+}
+
+body[data-route="forward"] .module--full-bleed-image h2,
+body[data-route="forward_pre-staging"] .module--full-bleed-image h2 {
+  margin-top: 3%;
+}
+
+body[data-route="forward_pre-staging"] .module--feature-masthead-shallow h2 {
+  font-size: 3em;
+}
+body[data-route="forward_pre-staging"] .module--feature-content-right {
+  padding-top: 0;
+}
+
+body[data-route="forward_pre-staging"] .module--feature-content-right h2 {
+  line-height: 1.5em;
+}
+
+/* body.isMobile[data-route='forward'] .module--feature-full-bleed-image .promo__wrapper,
+body.isMobile[data-route='forward_pre-staging'] .module--feature-full-bleed-image .promo__wrapper {
+	background-position: unset;
+	height: 420px;
+} */
+
+/* body.isMobile .module--feature-full-bleed-image .promo__wrapper {
+    background-position: unset;
+} */
+
+body[data-route="forward"] .module--conversion-register,
+body[data-route="forward_pre-staging"] .module--conversion-register {
+  color: white;
+  text-align: center;
+}
+
+body[data-route="forward"] .module--conversion-register h2,
+body[data-route="forward_pre-staging"] .module--conversion-register h2 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0;
+  color: white;
+}
+
+body[data-route="forward"] .module--conversion-register p,
+body[data-route="forward_pre-staging"] .module--conversion-register p {
+  color: white;
+}
+
+body[data-route="forward"] .module--feature-no-image,
+body[data-route="forward_pre-staging"] .module--feature-no-image {
+  text-align: center;
+}
+
+body[data-route="forward"] .module--feature-no-image a,
+body[data-route="forward_pre-staging"] .module--feature-no-image a {
+  color: #e12178;
+}
+
+body[data-route="forward"] .module--feature-full-bleed-image .promo__wrapper,
+body[data-route="forward_tune-in-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper,
+body[data-route="forward_post-forward-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+body[data-route="forward"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__media,
+body[data-route="forward_tune-in-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__media,
+body[data-route="forward_post-forward-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__media {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  order: 2;
+}
+
+body[data-route="forward"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__media
+  img,
+body[data-route="forward_tune-in-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__media
+  img,
+body[data-route="forward_post-forward-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__media
+  img {
+  width: 50%;
+}
+
+body[data-route="forward"].isMobile
+  .module--feature-full-bleed-image
+  .promo__wrapper__media
+  img,
+body[data-route="forward_tune-in-staging"].isMobile
+  .module--feature-full-bleed-image
+  .promo__wrapper__media
+  img,
+body[data-route="forward_post-forward-staging"].isMobile
+  .module--feature-full-bleed-image
+  .promo__wrapper__media
+  img {
+  width: 100%;
+  padding: 0 20px;
+}
+
+body[data-route="forward"].isMobile
+  .module--feature-full-bleed-image
+  .add-to-calendar,
+body[data-route="forward_tune-in-staging"].isMobile
+  .module--feature-full-bleed-image
+  .add-to-calendar,
+body[data-route="forward_post-forward-staging"].isMobile
+  .module--feature-full-bleed-image
+  .add-to-calendar {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+body[data-route="forward"].isMobile .moduleBetaRegistration,
+body[data-route="forward_tune-in-staging"].isMobile .moduleBetaRegistration,
+body[data-route="forward_post-forward-staging"].isMobile
+  .moduleBetaRegistration {
+  background-size: 775px 100%;
+}
+
+body[data-route="forward"].module--feature-full-bleed-image .add-to-calendar,
+body[data-route="forward_tune-in-staging"]
+  .module--feature-full-bleed-image
+  .add-to-calendar,
+body[data-route="forward_post-forward-staging"]
+  .module--feature-full-bleed-image
+  .add-to-calendar {
+  width: auto !important;
+}
+
+/* body[data-route='forward'] .module--feature-full-bleed-image .add-to-calendar button,
+body[data-route='forward_tune-in-staging'] .module--feature-full-bleed-image .add-to-calendar button {
+    width: 100%;
+} */
+
+body[data-route="forward"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__content,
+body[data-route="forward_tune-in-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__content,
+body[data-route="forward_post-forward-staging"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__content {
+  min-height: 0;
+}
+
+body[data-route="forward"] .module--conversion-register .betaRegistration,
+body[data-route="forward_tune-in-staging"]
+  .module--conversion-register
+  .betaRegistration,
+body[data-route="forward_post-forward-staging"]
+  .module--conversion-register
+  .betaRegistration {
+  max-width: none;
+  text-align: center;
+}
+
+body[data-route="forward"] .module--conversion-register .betaRegistration h2,
+body[data-route="forward_tune-in-staging"]
+  .module--conversion-register
+  .betaRegistration
+  h2,
+body[data-route="forward_post-forward-staging"]
+  .module--conversion-register
+  .betaRegistration
+  h2 {
+  color: #fff;
+  text-align: center;
+}
+
+body[data-route="forward"] .module--conversion-register .betaRegistration p,
+body[data-route="forward_tune-in-staging"]
+  .module--conversion-register
+  .betaRegistration
+  p,
+body[data-route="forward_post-forward-staging"]
+  .module--conversion-register
+  .betaRegistration
+  p {
+  color: #fff;
+}
+
+/* body[data-route='forward'] .module--conversion-register .betaRegistration .betaRegister__platforms ,
+body[data-route='forward_tune-in-staging'] .module--conversion-register .betaRegistration .betaRegister__platforms {
+    display: none;
+} */
+
+body[data-route="studio_fgol_careers"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__content
+  h2,
+body[data-route="studio_fgol_careers"]
+  .module--feature-full-bleed-image
+  .promo__wrapper__content
+  p {
+  color: #000000;
+}
+
+/* END OF UBIFORWARD STYLES */
+/* UEG DOWNLOAD */
+body[data-route="entertainment_parks-experiences_escape-games_downloads"]
+  .moduleGameSiteNavigation
+  .gameSiteNavigation__buttons
+  a {
+  background-color: #f5681f;
+}
+
+body[data-route="entertainment_parks-experiences_escape-games_downloads"]
+  .moduleGameSiteNavigation
+  .gameSiteNavigation__buttons
+  a:hover
+  span {
+  color: #f5681f;
+}
+
+body[data-route="entertainment_parks-experiences_escape-games_downloads"]
+  .passwordWrapper
+  button[type="submit"] {
+  background-color: #f5681f;
+  border-color: #f5681f;
+}
+
+body[data-route="entertainment_parks-experiences_escape-games_downloads"]
+  .passwordWrapper
+  button[type="submit"]:hover
+  span {
+  color: #f5681f;
+}
+
+/* UEG CONTACT */
+body[data-route="entertainment_parks-experiences_escape-games_contact-and-support"]
+  .moduleEmailForm
+  button[type="submit"] {
+  background-color: #f5681f;
+  border-color: #f5681f;
+}
+
+body[data-route="entertainment_parks-experiences_escape-games_contact-and-support"]
+  .moduleEmailForm
+  button[type="submit"]:hover
+  span {
+  color: #f5681f;
+}
+/* TEMPORARY UPDATES-DETAIL TABLE STYLES */
+
+.moduleUpdatesDetail .updatesDetail__article__content table {
+  border: 3px solid black;
+  margin: 0 auto;
+}
+
+.moduleUpdatesDetail .updatesDetail__article__content table thead th {
+  border: 1px solid black;
+}
+
+.moduleUpdatesDetail .updatesDetail__article__content table thead th:empty {
+  border: 0;
+}
+
+.moduleUpdatesDetail .updatesDetail__article__content table tbody tr td {
+  border: 1px solid black;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.moduleUpdatesDetail
+  .updatesDetail__article__content
+  table
+  tbody
+  tr:first-child
+  td {
+  border-top: 0;
+}
+
+body.zh-tw
+  .gamepage-searchfeed
+  .searchFeed__filter
+  .filter__select:nth-of-type(1) {
+  display: none;
+}
+
+.privacy__btns button {
+  font-family: ubisoft_sans, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.875em;
+  line-height: 1.25em;
+  letter-spacing: 0em;
+  color: rgb(155, 155, 155);
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+
+/* HOMEPAGE CAROUSEL AB TEST */
+.moduleCarousel[data-ccid="47AgobMEg54CzgjlYBWZc3"] {
+  display: none;
+}
+
+/* AC15 IDOMOO PERSONALIZED VIDEO PAGE */
+body[data-route="game_assassins-creed_15th-anniversary_my-video"]
+  .moduleGameSiteNavigation
+  .gameSiteNavigation__buttons
+  a {
+  background-color: #896d3d;
+}
+
+body[data-route="game_assassins-creed_15th-anniversary_my-video"]
+  .moduleGameSiteNavigation
+  .gameSiteNavigation__buttons
+  a:hover
+  span {
+  color: #896d3d;
+}
+
+body[data-route="game_assassins-creed_15th-anniversary_my-video"]
+  .module--conversion-sticky
+  .close-content
+  > .promo
+  .promo__wrapper__content
+  > .btn {
+  background-color: #896d3d;
+  border-color: #896d3d;
+}
+
+body[data-route="game_assassins-creed_15th-anniversary_my-video"]
+  .module--conversion-sticky
+  .close-content
+  > .promo
+  .promo__wrapper__content
+  > .btn:hover
+  span {
+  color: #896d3d;
+}
